@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>Profile</h2>
+
+{% if student %}
+
+<p><b>Name:</b> {{ student.studentName }}</p>
+<p><b>Age:</b> {{ student.age }}</p>
+
+<hr>
+
+<h4>My Enrolments</h4>
+
+{% for e in enrolments %}
+    <p>{{ e.module.moduleTitle }} - {{ e.status }}</p>
+{% empty %}
+    <p>No enrolments</p>
+{% endfor %}
+
+{% else %}
+
+<p>No student linked</p>
+
+{% endif %}
+
+{% endblock %}
+

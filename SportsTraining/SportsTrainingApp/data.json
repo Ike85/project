@@ -1,0 +1,1463 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2026-04-15T15:15:58.983Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "2",
+      "object_repr": "staff",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2026-04-15T15:16:18.063Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "2",
+      "object_repr": "staff",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Email address\"]}}]"
+    }
+  },
+
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2026-04-15T15:16:27.350Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "2",
+      "object_repr": "staff1",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Username\"]}}]"
+    }
+  },
+
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2026-04-15T15:17:08.009Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "3",
+      "object_repr": "customer2",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2026-04-15T15:17:52.070Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "3",
+      "object_repr": "customer2",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Email address\"]}}]"
+    }
+  },
+
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2026-04-15T15:19:07.028Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "4",
+      "object_repr": "manager",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2026-04-15T15:19:19.332Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "4",
+      "object_repr": "manager",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Email address\"]}}]"
+    }
+  },
+
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2026-04-15T15:19:23.872Z",
+      "user": 1, "content_type": 4, "object_id": "4",
+      "object_repr": "manager3", "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Username\"]}}]"
+    }
+  },
+
+
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {"action_time": "2026-04-15T16:28:16.466Z",
+      "user": 1, "content_type": 8, "object_id": "1",
+      "object_repr": "Student object (1)", "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+
+  {
+    "model": "admin.logentry",
+  "pk": 10,
+  "fields": {"action_time": "2026-04-15T16:30:32.428Z",
+    "user": 1, "content_type": 8,
+    "object_id": "2", "object_repr": "Student No.2 - Chuck",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+  },
+
+
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields":
+    {"action_time": "2026-04-15T16:31:34.700Z",
+    "user": 1, "content_type": 12,
+    "object_id": "1", "object_repr": "TrainingModule object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+    }
+  },
+
+
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {"action_time": "2026-04-15T16:32:16.418Z",
+    "user": 1, "content_type": 11,
+    "object_id": "1", "object_repr": "Session object (1)",
+    "action_flag": 1, "change_message": "[{\"added\": {}}]"
+    }
+  },
+
+
+  {
+    "model": "admin.logentry",
+    "pk": 13, "fields": {"action_time": "2026-04-15T16:34:19.570Z",
+    "user": 1, "content_type": 10,
+    "object_id": "1", "object_repr": "EnrolmentModule object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+  },
+
+
+  {
+    "model": "admin.logentry", "pk": 14,
+    "fields": {
+      "action_time": "2026-04-15T16:37:37.661Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "Attendance object (1)", "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+
+
+  {
+    "model": "admin.logentry",
+  "pk": 15,
+    "fields": {
+      "action_time": "2026-04-16T17:43:19.451Z", "user": 1,
+    "content_type": 8, "object_id": "3", "object_repr": "Student No.3 - Mike",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+    }
+  },
+
+
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2026-04-16T18:23:59.204Z",
+      "user": 1, "content_type": 12,
+      "object_id": "2",
+      "object_repr": "Module No.2 - Strength Training", "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+
+
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {"action_time": "2026-04-16T18:28:33.664Z",
+    "user": 1, "content_type": 11, "object_id": "3",
+    "object_repr": "Session No.3 - Date: 2026-04-16 - 60 hours",
+    "action_flag": 1, "change_message": "[{\"added\": {}}]"
+    }
+  },
+
+  {
+    "model": "admin.logentry",
+  "pk": 18,
+    "fields": {
+      "action_time": "2026-04-16T18:31:15.139Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2", "object_repr": "Student No.3 - Mike - Late",
+    "action_flag": 1, "change_message": "[{\"added\": {}}]"
+    }
+  },
+
+
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2026-04-16T18:45:42.800Z",
+      "user": 1, "content_type": 12, "object_id": "3",
+      "object_repr": "Module No.3 - Cardio Fitness", "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+
+
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2026-04-16T18:53:14.257Z",
+    "user": 1, "content_type": 8,
+    "object_id": "4", "object_repr": "Student No.4 - Wilson", "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+    }
+  },
+
+
+  {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+      "action_time": "2026-04-16T18:57:54.912Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "4", "object_repr": "Module No.4 - Advanced Strength",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+    }
+  },
+
+  {
+    "model": "admin.logentry",
+  "pk": 22,
+    "fields": {
+      "action_time": "2026-04-16T19:00:05.356Z",
+    "user": 1, "content_type": 8,
+    "object_id": "5", "object_repr": "Student No.5 - Liam", "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+    }
+  },
+
+  {
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+      "action_time": "2026-04-16T19:04:20.379Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "6", "object_repr": "Module No.6 - Present", "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+    }
+  },
+
+  {
+    "model": "admin.logentry",
+  "pk": 24,
+    "fields": {
+      "action_time": "2026-04-16T19:14:48.273Z", "user": 1,
+    "content_type": 10, "object_id": "1",
+      "object_repr": "Module No.1 - In Progress",
+      "action_flag": 2, "change_message": "[]"
+    }
+  },
+
+  {
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+      "action_time": "2026-04-16T19:15:08.630Z",
+      "user": 1, "content_type": 10, "object_id": "3",
+      "object_repr": "Module No.3 - In Progress",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Enrolment id\"]}}]"
+    }
+  },
+
+
+  {
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+      "action_time": "2026-04-16T19:22:42.208Z",
+      "user": 1,
+      "content_type": 12, "object_id": "5",
+      "object_repr": "Module No.5 - Gym Training",
+      "action_flag": 1, "change_message": "[{\"added\": {}}]"
+    }
+  },
+
+
+  {
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+      "action_time": "2026-04-16T19:22:46.813Z",
+      "user": 1, "content_type": 10,
+      "object_id": "5", "object_repr": "Module No.5 - Present",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Enrolment id\", \"Module\"]}}]"
+    }
+  },
+
+  {
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+      "action_time": "2026-04-16T19:23:05.063Z",
+      "user": 1, "content_type": 10,
+      "object_id": "2",
+      "object_repr": "Module No.2 - Present",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Enrolment id\"]}}]"
+    }
+  },
+
+  {"model": "admin.logentry",
+    "pk": 29,
+    "fields": {"action_time": "2026-04-16T19:23:17.878Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "5",
+      "object_repr": "Module No.5 - Present",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Enrolment id\"]}}]"
+    }
+  },
+
+  {
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {"action_time": "2026-04-16T19:23:32.552Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "6",
+      "object_repr": "Module No.6 - Present",
+      "action_flag": 2, "change_message": "[]"
+    }
+  },
+
+  {
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+      "action_time": "2026-04-16T19:25:30.513Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "6",
+      "object_repr": "Module No.6 - Present",
+      "action_flag": 3, "change_message": ""
+    }
+  },
+
+  {
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+      "action_time": "2026-04-17T14:04:41.096Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "2",
+      "object_repr": "Session No.2 - Date: 2026-04-17 - 1 hours",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+
+  {
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+      "action_time": "2026-04-17T14:04:56.588Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "3",
+      "object_repr": "Session No.3 - Date: 2026-04-16 - 60 hours",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Module\"]}}]"
+    }
+  },
+
+  {
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+      "action_time": "2026-04-17T14:05:20.292Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "4",
+      "object_repr": "Session No.4 - Date: 2026-04-17 - 6 hours",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+
+  {
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {"action_time": "2026-04-17T14:05:31.584Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "5",
+      "object_repr": "Session No.5 - Date: 2026-04-17 - 8 hours",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+
+  {
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {"action_time": "2026-04-17T14:05:47.957Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "Student No.2 - Chuck - present",
+      "action_flag": 1, "change_message": "[{\"added\": {}}]"
+    }
+  },
+
+  {
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+      "action_time": "2026-04-19T18:08:25.245Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "Student No.4 - Wilson - Late",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Athlete\", \"Session\"]}}]"
+    }
+  },
+
+
+  {
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+      "action_time": "2026-04-19T18:18:17.475Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "4",
+      "object_repr": "Module No.4 - Present",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+
+  {
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+      "action_time": "2026-04-19T18:19:22.609Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "4",
+      "object_repr": "Student No.3 - Mike - present",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+
+
+  {
+    "model": "admin.logentry", "pk": 40,
+    "fields": {
+      "action_time": "2026-04-19T18:19:49.131Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "5",
+      "object_repr": "Student No.5 - Liam - present",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+
+
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+
+
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+
+
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+
+
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 3,
+      "codename": "add_permission"
+    }
+  },
+
+
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 3,
+      "codename": "change_permission"
+    }
+  },
+
+
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 3,
+      "codename": "delete_permission"
+    }
+  },
+
+
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 3,
+      "codename": "view_permission"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 2,
+      "codename": "add_group"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 2,
+      "codename": "change_group"
+    }
+  },
+
+
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 2,
+      "codename": "delete_group"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 2,
+      "codename": "view_group"
+    }
+  },
+
+
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+    }
+  },
+
+
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 4,
+      "codename": "view_user"
+    }
+  },
+
+
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+    }
+  },
+
+
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+    }
+  },
+
+
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 5,
+      "codename": "view_contenttype"
+    }
+  },
+
+
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+    }
+  },
+
+
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {"name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+    }
+  },
+
+
+  {
+    "model": "auth.permission", "pk": 23,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+    }
+  },
+
+
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 6,
+      "codename": "view_session"
+    }
+  },
+
+
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {"name": "Can add modules",
+      "content_type": 7,
+      "codename": "add_modules"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change modules",
+      "content_type": 7,
+      "codename": "change_modules"
+    }
+  },
+
+
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete modules",
+      "content_type": 7,
+      "codename": "delete_modules"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {"name": "Can view modules",
+      "content_type": 7,
+      "codename": "view_modules"
+    }
+  },
+
+
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add student",
+      "content_type": 8,
+      "codename": "add_student"
+    }
+  },
+
+
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change student",
+      "content_type": 8,
+      "codename": "change_student"
+    }
+  },
+
+
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete student",
+      "content_type": 8,
+      "codename": "delete_student"
+    }
+  },
+
+
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view student",
+      "content_type": 8,
+      "codename": "view_student"
+    }
+  },
+
+
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add training module",
+      "content_type": 12,
+      "codename": "add_trainingmodule"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change training module",
+      "content_type": 12,
+      "codename": "change_trainingmodule"
+    }
+  },
+
+
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete training module",
+      "content_type": 12,
+      "codename": "delete_trainingmodule"
+    }
+  },
+
+
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {"name": "Can view training module",
+      "content_type": 12,
+      "codename": "view_trainingmodule"
+    }
+  },
+
+
+  {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+      "name": "Can add attendance",
+      "content_type": 9,
+      "codename": "add_attendance"
+    }
+  },
+
+
+  {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+      "name": "Can change attendance",
+      "content_type": 9,
+      "codename": "change_attendance"
+    }
+  },
+
+
+  {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+      "name": "Can delete attendance",
+      "content_type": 9,
+      "codename": "delete_attendance"
+    }
+  },
+
+
+  {
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+      "name": "Can view attendance",
+      "content_type": 9,
+      "codename": "view_attendance"
+    }
+  },
+
+
+  {
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+      "name": "Can add enrolment module",
+      "content_type": 10,
+      "codename": "add_enrolmentmodule"
+    }
+  },
+
+
+  {
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+      "name": "Can change enrolment module",
+      "content_type": 10,
+      "codename": "change_enrolmentmodule"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {"name": "Can delete enrolment module",
+      "content_type": 10,
+      "codename": "delete_enrolmentmodule"
+    }
+  },
+
+
+  {
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {"name": "Can view enrolment module",
+      "content_type": 10,
+      "codename": "view_enrolmentmodule"
+    }
+  },
+
+
+  {
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 11,
+      "codename": "add_session"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 11,
+      "codename": "change_session"
+    }
+  },
+
+
+  {
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 11,
+      "codename": "delete_session"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 11,
+      "codename": "view_session"
+    }
+  },
+
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$1200000$2P4hjrHzmpHO2GqGTQfqV0$YMKWbDICKReTg+tc7wVmOse5CBJ/gd9/LPc7VdN0wHE=",
+      "last_login": "2026-04-15T15:13:57.626Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "admin@admin.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2026-04-15T15:05:31.369Z",
+      "groups": [], "user_permissions": []
+    }
+  },
+
+
+  {
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$1200000$Hz1Jm3hc9OXzEmEti1aEAN$TLRrcnY2ywXNk8g/Xef6FOZj+/d2E5nT7y/aUrq6B6w=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "staff1",
+      "first_name": "",
+      "last_name": "",
+      "email": "staff1@staff1.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-04-15T15:15:57Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+
+  {
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$1200000$r22MLYR4gQiQR3qZeZOYIu$G8QenJFqDleQ4uvOJneOGaJlXR5WixPvb59VujPxR8w=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "customer2",
+      "first_name": "",
+      "last_name": "",
+      "email": "customer2@customer2.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-04-15T15:17:06Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+
+  {
+    "model": "auth.user",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$1200000$4WduM3rtXWkS7s0qY8GlpW$s+Zc+rdHYgaeVg8Nxkj/VYYNVuFirxe5ferwQtBcycc=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "manager3",
+      "first_name": "",
+      "last_name": "",
+      "email": "manager3@manager3.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-04-15T15:19:05Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"}
+  },
+
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth", "model": "permission"
+    }
+  },
+
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "auth", "model": "user"
+    }
+  },
+
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {"app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "SportsTrainingApp",
+      "model": "modules"
+    }
+  },
+
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "SportsTrainingApp",
+      "model": "student"
+    }
+  },
+
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+      "app_label": "SportsTrainingApp",
+      "model": "attendance"
+    }
+  },
+
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {"app_label": "SportsTrainingApp",
+      "model": "enrolmentmodule"
+    }
+  },
+
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+      "app_label": "SportsTrainingApp",
+      "model": "session"
+    }
+  },
+
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+      "app_label": "SportsTrainingApp",
+      "model": "trainingmodule"
+    }
+  },
+
+  {
+    "model": "sessions.session",
+    "pk": "044p5nnr5u1uykhdw92lig3ru0qr9ra3",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2hAGcWBcuvcMZIBBqqZNSrsy3l2bdKHb_977LxV5XVpcu8xxKOqsQB1-t8T5IeMGyp3H26TzNC7zkPSm6J12fZ2KPC-7-3fQuLdvLWg8e66WqmXyxsERAhAmgzl7FHvCwFQ4AXvhQA4D2ErOVQEMROr9Ac6aNzE:1wD1wD:MOAAEHu56Ow1f772BuqpD1eECyp7PIgXOibwxnnXinI",
+      "expire_date": "2026-04-29T15:13:57.634Z"
+    }
+  },
+
+  {
+    "model": "sessions.session",
+    "pk": "mtaiwx5vpx8jhkrntzwbs8yya3bby69c",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2hAGcWBcuvcMZIBBqqZNSrsy3l2bdKHb_977LxV5XVpcu8xxKOqsQB1-t8T5IeMGyp3H26TzNC7zkPSm6J12fZ2KPC-7-3fQuLdvLWg8e66WqmXyxsERAhAmgzl7FHvCwFQ4AXvhQA4D2ErOVQEMROr9Ac6aNzE:1wD1wC:S1epX9aX4LhJt7aWU395u39R_nG79ukDlzRM73-yUzA",
+      "expire_date": "2026-04-29T15:13:56.240Z"
+    }
+  },
+
+  {"model": "SportsTrainingApp.student",
+    "pk": 1,
+    "fields": {
+      "studentName": "Ike", "age": 23
+    }
+  },
+
+  {
+    "model": "SportsTrainingApp.student",
+    "pk": 2,
+    "fields": {
+      "studentName": "Chuck", "age": 13
+    }
+  },
+
+  {
+    "model": "SportsTrainingApp.student",
+    "pk": 3,
+    "fields": {"studentName": "Mike",
+      "age": 23
+    }
+  },
+
+  {
+    "model": "SportsTrainingApp.student",
+    "pk": 4,
+    "fields": {"studentName": "Wilson",
+      "age": 25
+    }
+  },
+
+  {
+    "model": "SportsTrainingApp.student",
+    "pk": 5,
+    "fields": {
+      "studentName": "Liam", "age": 30
+    }
+  },
+
+  {
+    "model": "SportsTrainingApp.trainingmodule",
+    "pk": 1,
+    "fields": {
+      "moduleTitle": "Football",
+      "moduleDescription": "This is Football",
+      "moduleCoach": "Ike",
+      "moduleDate": "2026-04-15"
+    }
+  },
+
+  {
+    "model": "SportsTrainingApp.trainingmodule",
+    "pk": 2,
+    "fields": {
+      "moduleTitle": "Strength Training",
+      "moduleDescription": "Focus on building strength and endurance",
+      "moduleCoach": "John",
+      "moduleDate": "2026-04-16"
+    }
+  },
+
+  {
+    "model": "SportsTrainingApp.trainingmodule",
+    "pk": 3,
+    "fields": {
+      "moduleTitle": "Cardio Fitness",
+      "moduleDescription": "Cardio exercises to improve stamina",
+      "moduleCoach": "Smith",
+      "moduleDate": "2026-04-16"
+    }
+  },
+
+  {
+    "model": "SportsTrainingApp.trainingmodule",
+    "pk": 4,
+    "fields": {
+      "moduleTitle": "Advanced Strength",
+      "moduleDescription": "Strength Session",
+      "moduleCoach": "Wilson",
+      "moduleDate": "2026-04-16"
+    }
+  },
+
+  {
+    "model": "SportsTrainingApp.trainingmodule",
+    "pk": 5,
+    "fields": {
+      "moduleTitle": "Gym Training",
+      "moduleDescription": "Build strength and endurance",
+      "moduleCoach": "Doe",
+      "moduleDate": "2026-04-16"
+    }
+  },
+
+  {"model": "SportsTrainingApp.enrolmentmodule",
+    "pk": 1,
+    "fields": {
+      "athlete": 1,
+      "module": 1,
+      "status": "In Progress",
+      "progress": "Good"
+    }
+  },
+
+  {
+    "model": "SportsTrainingApp.enrolmentmodule",
+    "pk": 2,
+    "fields": {
+      "athlete": 5,
+      "module": 4,
+      "status": "Present",
+      "progress": "So Good"
+    }
+  },
+
+  {
+    "model": "SportsTrainingApp.enrolmentmodule",
+    "pk": 3,
+    "fields": {
+      "athlete": 1,
+      "module": 1,
+      "status": "In Progress",
+      "progress": "Good"
+    }
+  },
+
+  {
+    "model": "SportsTrainingApp.enrolmentmodule",
+    "pk": 4,
+    "fields": {
+      "athlete": 4,
+      "module": 4,
+      "status": "Present",
+      "progress": "Good"
+    }
+  },
+
+  {
+    "model": "SportsTrainingApp.enrolmentmodule",
+    "pk": 5,
+    "fields": {
+      "athlete": 5,
+      "module": 4,
+      "status": "Present",
+      "progress": "So Good"
+    }
+  },
+
+  {
+    "model": "SportsTrainingApp.session",
+    "pk": 1,
+    "fields": {
+      "module": 1,
+      "date": "2026-04-15",
+      "duration": 2
+    }
+  },
+
+  {
+    "model": "SportsTrainingApp.session",
+    "pk": 2,
+    "fields": {
+      "module": 2,
+      "date": "2026-04-17",
+      "duration": 1
+    }
+  },
+
+  {
+    "model": "SportsTrainingApp.session",
+    "pk": 3,
+    "fields": {
+      "module": 3,
+      "date": "2026-04-16",
+      "duration": 60
+    }
+  },
+
+  {
+    "model": "SportsTrainingApp.session",
+    "pk": 4,
+    "fields": {"module": 4,
+      "date": "2026-04-17",
+      "duration": 6
+    }
+  },
+
+  {
+    "model": "SportsTrainingApp.session",
+    "pk": 5,
+    "fields": {
+      "module": 5,
+      "date": "2026-04-17",
+      "duration": 8
+    }
+  },
+
+  {
+    "model": "SportsTrainingApp.attendance",
+    "pk": 1,
+    "fields": {
+      "athlete": 1,
+      "session": 1,
+      "status": "present"
+    }
+  },
+
+  {
+    "model": "SportsTrainingApp.attendance",
+    "pk": 2,
+    "fields": {
+      "athlete": 4,
+      "session": 4,
+      "status": "Late"
+    }
+  },
+
+  {
+    "model": "SportsTrainingApp.attendance",
+    "pk": 3,
+    "fields": {
+      "athlete": 2,
+      "session": 2,
+      "status": "present"
+    }
+  },
+
+  {
+    "model": "SportsTrainingApp.attendance",
+    "pk": 4,
+    "fields": {"athlete": 3,
+      "session": 3,
+      "status": "present"
+    }
+  },
+
+  {
+    "model": "SportsTrainingApp.attendance",
+    "pk": 5,
+    "fields": {"athlete": 5,
+      "session": 5,
+      "status": "present"
+    }
+  }
+
+]

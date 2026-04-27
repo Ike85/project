@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>My Progress</h2>
+
+{% for e in enrolments %}
+
+<div class="card p-3 mb-2">
+
+    <h4>{{ e.module.moduleTitle }}</h4>
+    <p>Status: {{ e.status }}</p>
+    <p>Progress: {{ e.progress }}</p>
+
+</div>
+
+{% empty %}
+
+<p>No progress yet.</p>
+
+{% endfor %}
+
+{% endblock %}

@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>Training Modules</h2>
+
+{% for m in modules %}
+
+<div class="card p-3 mb-3">
+
+    <h4>{{ m.moduleTitle }}</h4>
+    <p>{{ m.moduleDescription }}</p>
+    <p><b>Coach:</b> {{ m.moduleCoach }}</p>
+    <p><b>Date:</b> {{ m.moduleDate }}</p>
+
+    <form method="post" action="/enrol/{{ m.module_id }}/">
+        {% csrf_token %}
+        <button class="btn btn-primary btn-sm">Enrol</button>
+    </form>
+
+</div>
+
+{% endfor %}
+
+{% endblock %}

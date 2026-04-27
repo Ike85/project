@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+
+<div class="text-center mb-4">
+
+    <h1 class="fw-bold">🏋️ Sports Training Home</h1>
+
+    <p class="lead text-muted">
+        Welcome to your training dashboard.
+    </p>
+
+    <h5>Hello, {{ user.username }} 👋</h5>
+    <p class="text-muted">Ready to continue your fitness journey?</p>
+
+</div>
+
+<!-- NAVIGATION -->
+<div class="row text-center mb-4">
+
+    <div class="col-md-4">
+        <a href="/workouts/" class="text-decoration-none">
+            <div class="p-3 border rounded">Workouts</div>
+        </a>
+    </div>
+
+    <div class="col-md-4">
+        <a href="/progress/" class="text-decoration-none">
+            <div class="p-3 border rounded">Progress</div>
+        </a>
+    </div>
+
+    <div class="col-md-4">
+        <a href="/profile/" class="text-decoration-none">
+            <div class="p-3 border rounded">Profile</div>
+        </a>
+    </div>
+
+</div>
+
+<hr>
+
+<!-- STATS -->
+<div class="row text-center">
+
+    <div class="col-md-3">
+        <h2>{{ student_count }}</h2>
+        <p>Students</p>
+    </div>
+
+    <div class="col-md-3">
+        <h2>{{ module_count }}</h2>
+        <p>Modules</p>
+    </div>
+
+    <div class="col-md-3">
+        <h2>{{ enrolment_count }}</h2>
+        <p>Enrolments</p>
+    </div>
+
+    <div class="col-md-3">
+        <h2>{{ session_count }}</h2>
+        <p>Sessions</p>
+    </div>
+
+</div>
+
+{% endblock %}
